@@ -24,3 +24,9 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+.EightBall-counts {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
