@@ -1,6 +1,25 @@
-.BoxesContainer {
+.ColorBoxes-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  margin-top: 20px;
+}
+
+.ColorBoxes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+}
+
+.ColorBoxes-box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+.ColorBoxes-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
